@@ -65,18 +65,16 @@
 
       <aside
         id="default-sidebar"
-        class="fixed top-0 left-0 z-40 w-62 md:w-[400px] h-screen transition-transform -translate-x-full sm:translate-x-0"
+        class="fixed top-0 left-0 z-40 w-62 md:w-[400px] h-screen transition-transform -translate-x-full sm:translate-x-0 duration-500"
         aria-label="Sidebar"
       >
-        <div
-          class="h-full px-10 py-5 overflow-y-auto bg-gray-50 dark:bg-gray-500"
-        >
-          <ul class="space-y-10 font-medium">
+        <div class="h-full px-10 py-6 overflow-y-auto bg-[#071952]">
+          <ul class="space-y-10 mt-5 font-medium">
             <li>
               <div class="flex justify-center">
                 <img
-                  class="w-auto h-[150px] rounded-[10px]"
-                  src="./assets/image/avatar.jpg"
+                  class="h-[150px] w-auto rounded-[10px] opacity-85 border-2 border-white"
+                  src="./assets/image/foto-wisuda.jpg"
                   alt="avatar"
                 />
               </div>
@@ -88,27 +86,19 @@
               </h1>
               <div class="flex justify-center space-x-3 mt-2">
                 <div
-                  class="flex items-center justify-center bg-[#3B5998] rounded-full w-6 h-6 p-4"
-                >
-                  <a
-                    href="#"
-                    class="text-center text-white text-[16px] fa fa-facebook"
-                  ></a>
-                </div>
-                <div
-                  class="flex items-center justify-center bg-[#55ACEE] rounded-full w-6 h-6 p-4"
-                >
-                  <a
-                    href="#"
-                    class="text-center text-white text-[16px] fa fa-twitter"
-                  ></a>
-                </div>
-                <div
                   class="flex items-center justify-center bg-[#125688] rounded-full w-6 h-6 p-4"
                 >
                   <a
                     href="#"
                     class="text-center text-white text-[16px] fa fa-instagram"
+                  ></a>
+                </div>
+                <div
+                  class="flex items-center justify-center bg-[#007bb5] rounded-full w-6 h-6 p-4"
+                >
+                  <a
+                    href="#"
+                    class="text-center text-white text-[16px] fa fa-linkedin"
                   ></a>
                 </div>
                 <div
@@ -125,7 +115,7 @@
             <li>
               <a
                 href="#about-me"
-                class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+                class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-[#37B7C3] group"
               >
                 <svg
                   class="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
@@ -147,7 +137,7 @@
             <li>
               <a
                 href="#"
-                class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+                class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-[#37B7C3] group"
               >
                 <svg
                   class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
@@ -166,7 +156,7 @@
             <li>
               <a
                 href="#"
-                class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+                class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-[#37B7C3] group"
               >
                 <svg
                   class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
@@ -185,7 +175,7 @@
             <li>
               <a
                 href="https://fajardc.my.id/project"
-                class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+                class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-[#37B7C3] group"
               >
                 <svg
                   class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
@@ -204,7 +194,7 @@
             <li>
               <a
                 href="#"
-                class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+                class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-[#37B7C3] group"
               >
                 <svg
                   class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
@@ -232,8 +222,8 @@
 
           <div class="flex justify-center items-center mt-16">
             <img
-              class="w-auto h-[300px] rounded-full"
-              src="./assets/image/avatar.jpg"
+              class="w-[300px] h-[300px] rounded-full backdrop-blur-xl bg-white/30"
+              src="./assets/image/foto-wisuda.jpg"
               alt="avatar"
             />
           </div>
@@ -247,17 +237,13 @@
           </div>
           <div class="flex justify-center items-center mt-10 xl:px-52">
             <p class="text-justify text-[16px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-              pharetra eget erat non eleifend. Sed blandit mollis nisi, eget
-              rutrum augue convallis vel. Donec odio nunc, gravida a quam sit
-              amet, pulvinar vehicula tortor. Nunc at malesuada ex, at feugiat
-              velit. Curabitur mauris tortor, posuere sed nulla sit amet,
-              faucibus bibendum nisl. Vestibulum molestie ut neque ac egestas.
-              Mauris sit amet ante egestas risus finibus aliquet. Suspendisse
-              tincidunt massa non felis dictum, nec ornare elit dapibus. Morbi
-              nec gravida odio. Praesent auctor tortor orci, vel tempor neque
-              rhoncus quis. Cras molestie pulvinar tristique. Praesent turpis
-              felis, maximus pulvinar fringilla sed, condimentum eu mauris.
+              Hi, my name is Fajar and I am a fresh graduate from Universitas
+              Teknologi Yogyakarta (UTY) in 2024. My dream and ambition is to
+              become a fullstack developer. The libraries and frameworks that I
+              use to build application projects are React for the frontend and
+              Express JS for the backend. However, currently I am focusing on
+              <span class="font-bold">backend dev</span>. I am passionate about
+              learning new knowledge and enjoy working with a team.
             </p>
           </div>
         </div>
